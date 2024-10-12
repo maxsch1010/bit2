@@ -1,0 +1,146 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+.social{
+    content: url("/uploads/2021/02/Group%201_0_1613586391.png");
+    position: fixed;
+    background-color: #850AE5;
+    right:0px;
+    top:225px;
+    padding: 30px 0px 40px 30px;
+   
+
+}
+.new::after{
+   
+    content: url("https://www.bodyadvance.co.uk/storage/app/uploads/public/627/506/60b/62750660b1d6a673511516.png") ;
+    size:10px 10px 10px 10px;
+    position:absolute; 
+    left: 100px;
+    bottom: 20px;
+}
+.barsick::after{
+    content: url("https://maxsch1010.github.io/pictures/38310697_8624553.png");
+    height: 30px;
+    width: 20px;
+}
+.barsick::before{
+    content: url("https://maxsch1010.github.io/pictures/38310697_8624553.png");
+    height: 30px;
+    width: 20px;
+}
+h2::after{
+    content: url("https://maxsch1010.github.io/pictures/mobile-30599_640.png");
+}
+h2::before{
+    content: url("https://maxsch1010.github.io/pictures/135385961_142f74e5-67cd-409b-a190-95b75f11586f.jpg");
+}
+nav::after{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #67E300;
+    border: 5px double #E40045;
+    
+}
+.cat{
+    color: aliceblue;
+}
